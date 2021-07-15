@@ -1,0 +1,148 @@
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                                text-decoration: none;
+                            }
+                            
+                            body {
+                                -webkit-font-smoothing: "antialiasing";
+                                /* background-color: rgb(37, 37, 37); */
+                                background-image: url("./bg.jpg");
+                                color: whitesmoke;
+                                overflow: hidden;
+                                font-family: 'Baloo Bhai 2', cursive;
+                            }
+                            
+                            img {
+                                border-radius: 50%;
+                                width: 200px;
+                                height: 200px;
+                            }
+                            
+                            .name {
+                                position: relative;
+                                top: -40px;
+                                font-size: 50px;
+                            }
+                            
+                            #info {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            
+                            .con-info {
+                                margin-top: 20px;
+                                background: #ff8c12;
+                                border-radius: 50px;
+                                /* max-width: 400px; */
+                                width: 100%;
+                                box-shadow: 0px 15px 20px -5px rgb(0 0 0 / 40%);
+                            }
+                            
+                            .content {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+                                width: 100%;
+                            }
+                            
+                            .tagline {
+                                position: relative;
+                                top: -60px;
+                                font-size: 16px;
+                                font-weight: 400;
+                            }
+                            
+                            .button {
+                                top: 20px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                background: #ff8c12;
+                                position: relative;
+                                max-width: 150px;
+                                height: 30px;
+                                width: 100%;
+                                border-radius: 100px;
+                            }
+                            
+                            .ii {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 10px;
+                                max-width: 200px;
+                                margin: auto;
+                                width: 100%;
+                                position: relative;
+                                z-index: 10;
+                                box-shadow: 0px 15px 20px -5px rgb(0 0 0 / 40%);
+                                border-radius: 0px 0px 30px 30px;
+                            }
+                            
+                            .con-links {
+                                width: 100%;
+                                top: 20px;
+                                overflow-x: auto;
+                                overflow-y: hidden;
+                                display: flex;
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                                scroll-snap-type: x mandatory;
+                                scroll-behavior: smooth;
+                                flex: 1;
+                                height: 100%;
+                                position: relative;
+                                max-width: 300px;
+                            }
+                            
+                            .socials {
+                                display: flex;
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                                flex-direction: column;
+                                padding: 15px 20px;
+                                padding-top: 0px;
+                                max-width: 500px;
+                                width: 100%;
+                                margin: auto;
+                                min-width: 100%;
+                                scroll-snap-align: center;
+                                flex: 1;
+                                overflow: auto;
+                                padding-top: 20px;
+                            }
+                            
+                            #btn {
+                                font-size: 20px;
+                            }
+                            
+                            .links {
+                                display: block;
+                                width: 100%;
+                                padding: 18px 22px;
+                                text-decoration: none;
+                                font-size: 1rem;
+                                /* color: #fff; */
+                                color: whitesmoke;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                /* background: rgb(var(--primary)); */
+                                margin-bottom: 12px;
+                                border-radius: 25px;
+                                position: relative;
+                                /* border: 2px solid rgb(var(--color)); */
+                                background: #ff8c12;
+                                /* box-shadow: 0px 10px 30px 0px rgba(var(--primary), .15);*/
+                            }
+                            
+                            .links a {
+                                color: whitesmoke;
+                                text-decoration: none;
+                                font-size: 18px;
+                            }
